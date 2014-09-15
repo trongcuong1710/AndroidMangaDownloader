@@ -5,4 +5,5 @@ package com.android.listener;
  */
 public interface IListChanged
 {
+    abstract void ListChanged(int index, EnmListChangedType type);
 }
